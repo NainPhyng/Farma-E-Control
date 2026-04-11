@@ -1,0 +1,10 @@
+# Se genera sola al compilar
+build/
+.gradle/
+
+# Es personal de cada PC
+local.properties
+
+# Caché del editor
+.idea/caches/
+.idea/navEditor.xml
