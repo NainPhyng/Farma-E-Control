@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/inicioSesionFragment">
+
+    <fragment
+        android:id="@+id/navegacionInicio"
+        android:name="com.example.farmae_control.ui.home.HomeFragment"
+        android:label="@string/title_inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigacionCuenta"
+        android:name="com.example.farmae_control.ui.cuenta.CuentaFragment"
+        android:label="@string/title_cuenta"
+        tools:layout="@layout/fragment_cuenta"
+        />
+
+    <fragment
+        android:id="@+id/navigation_sucursales"
+        android:name="com.example.farmae_control.ui.sucursales.SucursalesFragment"
+        android:label="@string/title_sucursales"
+        tools:layout="@layout/fragment_sucursales"
+        />
+
+    <fragment
+        android:id="@+id/navigacionCarrito"
+        android:name="com.example.farmae_control.ui.carrito.CarritoFragment"
+        android:label="@string/title_carrito"
+        tools:layout="@layout/fragment_carrito"
+        />
+    <fragment
+        android:id="@+id/navigacionMembresia"
+        android:name="com.example.farmae_control.ui.membresia.MembresiaFragment"
+        android:label="@string/title_membresia"
+        tools:layout="@layout/fragment_membresia"
+        />
+
+    <fragment
+        tools:layout="@layout/fragment_inicio_sesion"
+        android:label="@string/title_inicio"
+        android:name="com.example.farmae_control.ui.iniciosesion.InicioSesionFragment"
+        android:id="@+id/inicioSesionFragment"
+        />
+        <fragment
+        tools:layout="@layout/fragment_registro_sesion"
+        android:label="@string/title_registosesion"
+            android:name="com.example.farmae_control.ui.registosesion.RegistroSesionFragment"
+            android:id="@+id/registroSesionFragment"
+            />
+
+    <fragment
+        android:id="@+id/categoriaFragment"
+        android:name="com.example.farmae_control.ui.categoria.CategoriaFragment"
+        tools:layout="@layout/fragment_categoria"
+        android:label="@string/title_categoria"
+        />
+
+    <fragment
+        android:id="@+id/editarCuentaFragment"
+        android:name="com.example.farmae_control.ui.cuenta.EditarCuentaFragment"
+        tools:layout="@layout/fragment_editar_cuenta"
+        android:label="@string/title_editarcuenta"
+        />
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.farmae_control.ui.productos.ProductosFragment"
+        tools:layout="@layout/fragment_productos"
+        android:label="@string/title_productos"/>
+
+</navigation>

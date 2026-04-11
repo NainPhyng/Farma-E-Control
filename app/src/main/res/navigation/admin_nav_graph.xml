@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/admin_nav_graph"
+    app:startDestination="@id/adminFragment">
+
+
+        <fragment
+            android:id="@+id/adminFragment"
+            android:name="com.example.farmae_control.ui.admin.AdminFragment"
+            android:label="Admin" />
+
+        <fragment
+            android:id="@+id/adminAgregarProductoFragment"
+            android:name="com.example.farmae_control.ui.admin.AdminAgregarProductoFragment"
+            android:label="Agregar Producto" />
+
+
+
+
+
+
+</navigation>
