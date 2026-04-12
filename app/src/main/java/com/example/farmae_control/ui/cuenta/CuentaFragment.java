@@ -80,7 +80,10 @@ public class CuentaFragment extends Fragment {
 
                     // Header
                     tvUserName.setText(doc.getString("nombre") != null ? doc.getString("nombre") : "Usuario");
-                    tvUserType.setText("Cliente");
+
+                    //Corregido en la version 0.0.3
+                    String tipo = doc.getString("tipo");
+                    tvUserType.setText(tipo != null ? tipo : "Usuario");
 
                     // Datos del card
                     tvNombre.setText(doc.getString("nombre") != null ? doc.getString("nombre") : "-");

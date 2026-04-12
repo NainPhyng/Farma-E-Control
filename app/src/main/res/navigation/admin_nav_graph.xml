@@ -4,20 +4,26 @@
     android:id="@+id/admin_nav_graph"
     app:startDestination="@id/adminFragment">
 
-
         <fragment
             android:id="@+id/adminFragment"
             android:name="com.example.farmae_control.ui.admin.AdminFragment"
-            android:label="Admin" />
+            android:label="Admin">
+                <action
+                    android:id="@+id/action_admin_to_agregarProducto"
+                    app:destination="@id/adminAgregarProductoFragment" />
+                <action
+                    android:id="@+id/action_admin_to_aprobacion"
+                    app:destination="@id/adminAprobacionFragment" />
+        </fragment>
 
         <fragment
             android:id="@+id/adminAgregarProductoFragment"
             android:name="com.example.farmae_control.ui.admin.AdminAgregarProductoFragment"
             android:label="Agregar Producto" />
 
-
-
-
-
+        <fragment
+            android:id="@+id/adminAprobacionFragment"
+            android:name="com.example.farmae_control.ui.admin.AdminAprobacionFragment"
+            android:label="Solicitudes Pendientes" />
 
 </navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/almacen_nav_graph"
+    app:startDestination="@id/almacenFragment">
+
+    <fragment
+        android:id="@+id/almacenFragment"
+        android:name="com.example.farmae_control.ui.almacen.AlmacenFragment"
+        android:label="Almacén" />
+
+</navigation>
