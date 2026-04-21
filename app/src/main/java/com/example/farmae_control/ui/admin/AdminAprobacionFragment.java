@@ -54,7 +54,6 @@ public class AdminAprobacionFragment extends Fragment {
                     }
 
                     listaPendientes.clear();
-
                     for (QueryDocumentSnapshot doc : snapshots) {
                         UsuarioPendiente u = new UsuarioPendiente();
                         u.setUid(doc.getId());

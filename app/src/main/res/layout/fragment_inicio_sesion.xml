@@ -20,7 +20,7 @@
 
     <EditText
         android:id="@+id/etUser"
-        android:hint="Correo"
+        android:hint="Usuario"
         android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_gravity="center"
