@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183916314846",
+    "project_id": "farmae-control",
+    "storage_bucket": "farmae-control.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183916314846:android:4aeb2c9081682117ef024f",
+        "android_client_info": {
+          "package_name": "com.example.farmae_control"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC95zlmn8Y98oh_O0Kt9Tpex_NXn2rMOp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
