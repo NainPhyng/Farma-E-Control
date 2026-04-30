@@ -23,15 +23,10 @@
             <LinearLayout
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:background="@drawable/bg_logo_icon"
+                android:background="@drawable/iconprincipal"
                 android:gravity="center"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp">
-                <ImageView
-                    android:layout_width="32dp"
-                    android:layout_height="32dp"
-                    android:src="@drawable/ic_cross"
-                    android:tint="#FFFFFF"/>
             </LinearLayout>
 
             <TextView
@@ -81,7 +76,6 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
-                android:background="@drawable/bg_role_card_selected"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:padding="16dp">
@@ -91,11 +85,7 @@
                     android:background="@drawable/bg_role_icon_cliente"
                     android:gravity="center"
                     android:layout_marginBottom="8dp">
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/ic_person"
-                        android:tint="#1d4ed8"/>
+
                 </LinearLayout>
                 <TextView
                     android:layout_width="wrap_content"
@@ -121,7 +111,6 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
-                android:background="@drawable/bg_role_card"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:padding="16dp">
@@ -134,7 +123,6 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_store"
                         android:tint="#065f46"/>
                 </LinearLayout>
                 <TextView
@@ -161,7 +149,6 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
-                android:background="@drawable/bg_role_card"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:padding="16dp">
@@ -174,7 +161,6 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_heart_pulse"
                         android:tint="#9d174d"/>
                 </LinearLayout>
                 <TextView
@@ -200,7 +186,6 @@
                 android:layout_height="wrap_content"
                 android:layout_columnWeight="1"
                 android:layout_margin="5dp"
-                android:background="@drawable/bg_role_card"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:padding="16dp"
@@ -214,7 +199,6 @@
                     <ImageView
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@drawable/ic_shield"
                         android:tint="#5b21b6"/>
                 </LinearLayout>
                 <TextView
@@ -239,7 +223,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg_form_card"
             android:orientation="vertical"
             android:padding="20dp">
 
@@ -269,9 +252,7 @@
                         android:id="@+id/etNuevoNombre"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
                         android:hint="Nombre"
-                        android:hintTextColor="#64748b"
                         android:inputType="textPersonName"
                         android:padding="11dp"
                         android:textColor="@color/white"
@@ -296,10 +277,8 @@
                         android:id="@+id/etApellido"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
                         android:padding="11dp"
                         android:hint="Apellido"
-                        android:hintTextColor="#64748b"
                         android:textColor="#FFFFFF"
                         android:textSize="13sp"
                         android:inputType="textPersonName"/>
@@ -319,10 +298,8 @@
                 android:id="@+id/etNuevoCorreo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
                 android:padding="11dp"
                 android:hint="correo@ejemplo.com"
-                android:hintTextColor="#64748b"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
                 android:inputType="textWebEmailAddress"
@@ -341,10 +318,8 @@
                 android:id="@+id/etTelefono"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
                 android:padding="11dp"
                 android:hint="+52 55 1234 5678"
-                android:hintTextColor="#64748b"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
                 android:inputType="phone"
@@ -363,10 +338,8 @@
                 android:id="@+id/etNuevaDireccion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
                 android:padding="11dp"
                 android:hint="Calle, número, ciudad"
-                android:hintTextColor="#64748b"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
                 android:layout_marginBottom="12dp"/>
@@ -396,10 +369,8 @@
                         android:id="@+id/etEdad"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
                         android:padding="11dp"
                         android:hint="Edad"
-                        android:hintTextColor="#64748b"
                         android:textColor="#FFFFFF"
                         android:textSize="13sp"
                         android:inputType="number"/>
@@ -423,10 +394,8 @@
                         android:id="@+id/etNuevoUsuario"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
                         android:padding="11dp"
-                        android:hint="@usuario"
-                        android:hintTextColor="#64748b"
+                        android:hint="usuario"
                         android:textColor="#FFFFFF"
                         android:textSize="13sp"/>
                 </LinearLayout>
@@ -445,10 +414,8 @@
                 android:id="@+id/etNuevaContraseña"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
                 android:padding="11dp"
                 android:hint="••••••••"
-                android:hintTextColor="#64748b"
                 android:textColor="#FFFFFF"
                 android:textSize="13sp"
                 android:inputType="textPassword"
@@ -474,10 +441,8 @@
                     android:id="@+id/etCedula"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_input"
                     android:padding="11dp"
                     android:hint="7-8 dígitos"
-                    android:hintTextColor="#64748b"
                     android:textColor="#FFFFFF"
                     android:textSize="13sp"
                     android:inputType="number"
@@ -496,7 +461,6 @@
                 android:id="@+id/btnCrearCuenta"
                 android:layout_width="match_parent"
                 android:layout_height="52dp"
-                android:background="@drawable/bg_btn_primary"
                 android:text="Continuar"
                 android:textColor="#FFFFFF"
                 android:textSize="14sp"

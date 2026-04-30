@@ -8,7 +8,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_header_almacen"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -23,7 +22,6 @@
                 android:id="@+id/tvAlmacenAvatar"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:background="@drawable/bg_avatar_almacen"
                 android:gravity="center"
                 android:text="AL"
                 android:textColor="#FFFFFF"
@@ -40,7 +38,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_badge_almacen"
                     android:text="ALMACÉN"
                     android:textColor="#99f6e4"
                     android:textSize="9sp"
@@ -63,8 +60,6 @@
                 android:id="@+id/btnNotifAlmacen"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_icon_btn"
-                android:src="@drawable/ic_notifications"
                 android:tint="#FFFFFF"
                 android:padding="8dp"/>
         </LinearLayout>
@@ -82,7 +77,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp">
 
@@ -106,7 +100,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp"
                     android:layout_marginStart="8dp">
@@ -131,7 +124,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp"
                     android:layout_marginStart="8dp">
@@ -157,7 +149,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp"
                     android:layout_marginStart="8dp">
@@ -198,7 +189,6 @@
                 android:id="@+id/tabInventario"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab_teal_selected"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp">
@@ -206,7 +196,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_inventory"
                     android:tint="#2dd4bf"
                     android:layout_marginEnd="6dp"/>
 
@@ -222,7 +211,6 @@
             <LinearLayout android:id="@+id/tabAgregarProducto"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp"
@@ -231,7 +219,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_add_box"
                     android:tint="#64748b"
                     android:layout_marginEnd="6dp"/>
 
@@ -248,7 +235,6 @@
                 android:id="@+id/tabEntradasSalidas"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp"
@@ -257,7 +243,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_swap"
                     android:tint="#64748b"
                     android:layout_marginEnd="6dp"/>
 
@@ -274,7 +259,6 @@
                 android:id="@+id/tabCerrarSesionAlmacen"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp"
@@ -283,7 +267,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_logout"
                     android:tint="#64748b"
                     android:layout_marginEnd="6dp"/>
 
@@ -313,9 +296,7 @@
                 android:id="@+id/etBuscarProducto"
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
-                android:background="@drawable/bg_search"
                 android:hint="🔍  Buscar producto..."
-                android:hintTextColor="#94a3b8"
                 android:textColor="#1e293b"
                 android:textSize="13sp"
                 android:paddingHorizontal="14dp"

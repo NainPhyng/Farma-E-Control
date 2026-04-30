@@ -8,7 +8,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_header_doctor"
         android:orientation="vertical"
         android:padding="20dp">
 
@@ -23,7 +22,6 @@
                 android:id="@+id/tvDoctorAvatar"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:background="@drawable/bg_avatar_doctor"
                 android:gravity="center"
                 android:text="DV"
                 android:textColor="#FFFFFF"
@@ -40,7 +38,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_badge_doctor"
                     android:text="MÉDICO"
                     android:textColor="#c7d2fe"
                     android:textSize="9sp"
@@ -63,8 +60,7 @@
                 android:id="@+id/btnNotifDoctor"
                 android:layout_width="36dp"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_icon_btn"
-                android:src="@drawable/ic_notifications"
+
                 android:tint="#FFFFFF"
                 android:padding="8dp"/>
         </LinearLayout>
@@ -82,7 +78,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp">
 
@@ -106,7 +101,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp"
                     android:layout_marginStart="8dp">
@@ -131,7 +125,6 @@
                 <LinearLayout
                     android:layout_width="88dp"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_kpi"
                     android:orientation="vertical"
                     android:padding="12dp"
                     android:layout_marginStart="8dp">
@@ -172,7 +165,6 @@
                 android:id="@+id/tabCitas"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab_selected"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp">
@@ -180,7 +172,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_calendar"
                     android:tint="#38bdf8"
                     android:layout_marginEnd="6dp"/>
 
@@ -197,7 +188,6 @@
                 android:id="@+id/tabPacientes"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp"
@@ -206,7 +196,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_people"
                     android:tint="#64748b"
                     android:layout_marginEnd="6dp"/>
 
@@ -223,7 +212,6 @@
                 android:id="@+id/tabCerrarSesionDoctor"
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
-                android:background="@drawable/bg_tab"
                 android:orientation="horizontal"
                 android:gravity="center"
                 android:paddingHorizontal="14dp"
@@ -232,7 +220,6 @@
                 <ImageView
                     android:layout_width="16dp"
                     android:layout_height="16dp"
-                    android:src="@drawable/ic_logout"
                     android:tint="#64748b"
                     android:layout_marginEnd="6dp"/>
 
